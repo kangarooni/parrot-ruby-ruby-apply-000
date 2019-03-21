@@ -6,7 +6,7 @@ def parrot(*phrase)
     puts "Squawk!"
     "Squawk!"
   else
-    puts #{phrase}
+    puts phrase
     phrase
   end
 end
