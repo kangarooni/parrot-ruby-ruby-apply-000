@@ -6,7 +6,7 @@ def parrot(*phrase)
     puts "Squawk!"
     "Squawk!"
   else
-    out = phrase
+    out = phrase.join
     puts out
     out
   end
