@@ -3,8 +3,8 @@
 
 def parrot(*phrase)
   if phrase.empty?
-    return "Squawk!"
     puts "Squawk!"
+    "Squawk!"
   else
     return "say #{phrase} say"
     puts phrase.to_s
